@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "name": "Build Application",
+      "type": "npm",
+      "command": "run build"
+    },
+    {
+      "name": "Start Development Server",
+      "type": "npm",
+      "command": "run dev",
+      "dependsOn": []
+    },
+    {
+      "name": "Start Application",
+      "type": "npm",
+      "command": "start",
+      "dependsOn": ["Build Application"]
+    },
+    {
+      "name": "Run Tests",
+      "type": "npm",
+      "command": "run test"
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+2025-12-07 18:30:10 [error]: JWT verification error: Invalid token 
+Error: Invalid token
+    at Object.<anonymous> (C:\Users\HomePC\Desktop\Class Attendance\backend\tests\middlewares\auth.middleware.test.ts:91:13)
+    at C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\jest-mock\build\index.js:397:39
+    at Object.<anonymous> (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\jest-mock\build\index.js:404:13)
+    at Object.mockConstructor [as verify] (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\jest-mock\build\index.js:148:19)
+    at verify (C:\Users\HomePC\Desktop\Class Attendance\backend\src\middlewares\auth.middleware.ts:37:27)
+    at Object.<anonymous> (C:\Users\HomePC\Desktop\Class Attendance\backend\tests\middlewares\auth.middleware.test.ts:94:23)
+    at Promise.then.completed (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\jest-circus\build\utils.js:298:28)
+    at new Promise (<anonymous>)
+    at callAsyncCircusFn (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\jest-circus\build\utils.js:231:10)
+    at _callCircusTest (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\jest-circus\build\run.js:316:40)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at _runTest (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\jest-circus\build\run.js:252:3)
+    at _runTestsForDescribeBlock (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\jest-circus\build\run.js:126:9)
+    at _runTestsForDescribeBlock (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\jest-circus\build\run.js:121:9)
+    at run (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\jest-circus\build\run.js:71:3)
+    at runAndTransformResultsToJestFormat (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:122:21)
+    at jestAdapter (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:79:19)
+    at runTestInternal (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\jest-runner\build\runTest.js:367:16)
+    at runTest (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\jest-runner\build\runTest.js:444:34)
+    at Object.worker (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\jest-runner\build\testWorker.js:106:12)
+2025-12-07 20:33:54 [error]: Database seed failed 
+SequelizeConnectionRefusedError
+    at Client._connectionCallback (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\sequelize\src\dialects\postgres\connection-manager.js:184:24)
+    at Client._handleErrorWhileConnecting (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\pg\lib\client.js:336:19)
+    at Client._handleErrorEvent (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\pg\lib\client.js:346:19)
+    at Connection.emit (node:events:508:28)
+    at Connection.emit (node:domain:489:12)
+    at Socket.reportStreamError (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\pg\lib\connection.js:57:12)
+    at Socket.emit (node:events:508:28)
+    at Socket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+2025-12-07 21:23:22 [error]: Unable to start server: SQLITE_ERROR: no such table: users 
+Error
+    at Database.<anonymous> (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\sequelize\src\dialects\sqlite\query.js:236:27)
+    at C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\sequelize\src\dialects\sqlite\query.js:234:50
+    at new Promise (<anonymous>)
+    at Query.run (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\sequelize\src\dialects\sqlite\query.js:234:12)
+    at C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at async SQLiteQueryInterface.changeColumn (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\sequelize\src\dialects\sqlite\query-interface.js:48:40)
+    at async User.sync (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\sequelize\src\model.js:1408:11)
+    at async Sequelize.sync (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\sequelize\src\sequelize.js:825:9)
+    at async startServer (C:\Users\HomePC\Desktop\Class Attendance\backend\src\index.ts:25:5)
+2025-12-07 21:23:26 [error]: Unable to start server: Validation error 
+Error
+    at Database.<anonymous> (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\sequelize\src\dialects\sqlite\query.js:236:27)
+    at C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\sequelize\src\dialects\sqlite\query.js:234:50
+    at new Promise (<anonymous>)
+    at Query.run (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\sequelize\src\dialects\sqlite\query.js:234:12)
+    at C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at async SQLiteQueryInterface.changeColumn (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\sequelize\src\dialects\sqlite\query-interface.js:48:40)
+    at async User.sync (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\sequelize\src\model.js:1408:11)
+    at async Sequelize.sync (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\sequelize\src\sequelize.js:825:9)
+    at async startServer (C:\Users\HomePC\Desktop\Class Attendance\backend\src\index.ts:25:5)
+2025-12-07 21:23:26 [error]: Unable to start server: Validation error 
+Error
+    at Database.<anonymous> (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\sequelize\src\dialects\sqlite\query.js:236:27)
+    at C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\sequelize\src\dialects\sqlite\query.js:234:50
+    at new Promise (<anonymous>)
+    at Query.run (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\sequelize\src\dialects\sqlite\query.js:234:12)
+    at C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at async SQLiteQueryInterface.changeColumn (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\sequelize\src\dialects\sqlite\query-interface.js:48:40)
+    at async User.sync (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\sequelize\src\model.js:1408:11)
+    at async Sequelize.sync (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\sequelize\src\sequelize.js:825:9)
+    at async startServer (C:\Users\HomePC\Desktop\Class Attendance\backend\src\index.ts:25:5)
+2025-12-07 21:23:28 [error]: Unable to start server: No description found for "users" table. Check the table name and schema; remember, they _are_ case sensitive. 
+Error: No description found for "users" table. Check the table name and schema; remember, they _are_ case sensitive.
+    at SQLiteQueryInterface.describeTable (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\sequelize\src\dialects\sqlite\query-interface.js:204:15)
+    at async SQLiteQueryInterface.changeColumn (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\sequelize\src\dialects\sqlite\query-interface.js:42:20)
+    at async User.sync (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\sequelize\src\model.js:1408:11)
+    at async Sequelize.sync (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\sequelize\src\sequelize.js:825:9)
+    at async startServer (C:\Users\HomePC\Desktop\Class Attendance\backend\src\index.ts:25:5)
+2025-12-07 21:23:28 [error]: Unable to start server: SQLITE_ERROR: no such table: users_backup 
+Error
+    at Database.<anonymous> (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\sequelize\src\dialects\sqlite\query.js:236:27)
+    at C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\sequelize\src\dialects\sqlite\query.js:234:50
+    at new Promise (<anonymous>)
+    at Query.run (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\sequelize\src\dialects\sqlite\query.js:234:12)
+    at C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at async SQLiteQueryInterface.changeColumn (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\sequelize\src\dialects\sqlite\query-interface.js:48:40)
+    at async User.sync (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\sequelize\src\model.js:1408:11)
+    at async Sequelize.sync (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\sequelize\src\sequelize.js:825:9)
+    at async startServer (C:\Users\HomePC\Desktop\Class Attendance\backend\src\index.ts:25:5)
+2025-12-07 21:26:18 [error]: Uncaught Exception: listen EADDRINUSE: address already in use :::3000 
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at startServer (C:\Users\HomePC\Desktop\Class Attendance\backend\src\index.ts:29:12)
+2025-12-16 11:45:50 [error]: Unable to start server: Access denied for user 'root'@'localhost' (using password: NO) 
+SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at ConnectionManager.connect (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\sequelize\src\dialects\mysql\connection-manager.js:118:17)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async ConnectionManager._connect (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+    at async ConnectionManager.getConnection (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\sequelize\src\dialects\abstract\connection-manager.js:280:7)
+    at async C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\sequelize\src\sequelize.js:638:26
+    at async Sequelize.authenticate (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\sequelize\src\sequelize.js:972:5)
+    at async startServer (C:\Users\HomePC\Desktop\Class Attendance\backend\src\index.ts:21:5)
+2025-12-16 13:23:05 [error]: Unexpected error: SyntaxError: Expected property name or '}' in JSON at position 1 (line 1 column 2)
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+    at invokeCallback (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:508:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1701:12) 
+2025-12-16 13:27:19 [error]: Unexpected error: PayloadTooLargeError: request entity too large
+    at readStream (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\raw-body\index.js:163:17)
+    at getRawBody (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\raw-body\index.js:116:12)
+    at read (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\body-parser\lib\read.js:79:3)
+    at jsonParser (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\body-parser\lib\types\json.js:138:5)
+    at Layer.handle [as handle_request] (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\helmet\index.cjs:537:6) 
+2025-12-16 13:27:20 [error]: Unexpected error: PayloadTooLargeError: request entity too large
+    at readStream (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\raw-body\index.js:163:17)
+    at getRawBody (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\raw-body\index.js:116:12)
+    at read (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\body-parser\lib\read.js:79:3)
+    at jsonParser (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\body-parser\lib\types\json.js:138:5)
+    at Layer.handle [as handle_request] (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\helmet\index.cjs:537:6) 
+2025-12-16 13:27:32 [error]: Unexpected error: PayloadTooLargeError: request entity too large
+    at readStream (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\raw-body\index.js:163:17)
+    at getRawBody (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\raw-body\index.js:116:12)
+    at read (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\body-parser\lib\read.js:79:3)
+    at jsonParser (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\body-parser\lib\types\json.js:138:5)
+    at Layer.handle [as handle_request] (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\helmet\index.cjs:537:6) 
+2025-12-16 13:27:32 [error]: Unexpected error: PayloadTooLargeError: request entity too large
+    at readStream (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\raw-body\index.js:163:17)
+    at getRawBody (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\raw-body\index.js:116:12)
+    at read (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\body-parser\lib\read.js:79:3)
+    at jsonParser (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\body-parser\lib\types\json.js:138:5)
+    at Layer.handle [as handle_request] (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\helmet\index.cjs:537:6) 
+2025-12-16 14:23:43 [error]: jwt malformed 
+JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\jsonwebtoken\verify.js:70:17)
+    at authenticate (C:\Users\HomePC\Desktop\Class Attendance\backend\src\middlewares\auth.middleware.ts:37:27)
+    at Layer.handle [as handle_request] (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\express\lib\router\layer.js:95:5)
+2025-12-21 15:55:01 [error]: Uncaught Exception: listen EADDRINUSE: address already in use :::3000 
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at startServer (C:\Users\HomePC\Desktop\Class Attendance\backend\src\index.ts:29:12)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-12-21 16:04:24 [error]: Uncaught Exception: listen EADDRINUSE: address already in use :::3000 
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at startServer (C:\Users\HomePC\Desktop\Class Attendance\backend\src\index.ts:29:12)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-12-21 16:05:16 [error]: Uncaught Exception: listen EADDRINUSE: address already in use :::3000 
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at startServer (C:\Users\HomePC\Desktop\Class Attendance\backend\src\index.ts:29:12)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-12-21 16:43:52 [error]: Database seed failed Cannot drop table 'classes' referenced by a foreign key constraint 'attendance_ibfk_2' on table 'attendance'. 
+Error
+    at Query.run (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async MySQLQueryInterface.dropTable (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\sequelize\src\dialects\abstract\query-interface.js:265:5)
+    at async Class.drop (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\sequelize\src\model.js:1448:12)
+    at async Sequelize.drop (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\sequelize\src\sequelize.js:927:9)
+    at async Sequelize.sync (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\sequelize\src\sequelize.js:807:7)
+    at async seed (C:\Users\HomePC\Desktop\Class Attendance\backend\src\scripts\seed.ts:11:3)
+2025-12-21 16:44:48 [error]: Database seed failed Cannot drop table 'classes' referenced by a foreign key constraint 'attendance_ibfk_2' on table 'attendance'. 
+Error
+    at Query.run (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async MySQLQueryInterface.dropTable (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\sequelize\src\dialects\abstract\query-interface.js:265:5)
+    at async Class.drop (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\sequelize\src\model.js:1448:12)
+    at async Sequelize.drop (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\sequelize\src\sequelize.js:927:9)
+    at async Sequelize.sync (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\sequelize\src\sequelize.js:807:7)
+    at async seed (C:\Users\HomePC\Desktop\Class Attendance\backend\src\scripts\seed.ts:11:3)
+2025-12-21 16:45:09 [error]: Database seed failed Cannot drop table 'classes' referenced by a foreign key constraint 'attendance_ibfk_2' on table 'attendance'. 
+Error
+    at Query.run (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async MySQLQueryInterface.dropTable (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\sequelize\src\dialects\abstract\query-interface.js:265:5)
+    at async Class.drop (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\sequelize\src\model.js:1448:12)
+    at async Sequelize.drop (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\sequelize\src\sequelize.js:927:9)
+    at async Sequelize.sync (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\sequelize\src\sequelize.js:807:7)
+    at async seed (C:\Users\HomePC\Desktop\Class Attendance\backend\src\scripts\seed.ts:11:3)
+2025-12-21 16:49:58 [error]: Uncaught Exception: EPIPE: broken pipe, write 
+Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:75:18)
+    at writeOrBuffer (node:internal/streams/writable:570:12)
+    at _write (node:internal/streams/writable:499:10)
+    at Socket.Writable.write (node:internal/streams/writable:508:10)
+    at Console.log (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Console.Writable.write (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+2025-12-21 17:13:33 [error]: Unexpected error: SyntaxError: Expected property name or '}' in JSON at position 1 (line 1 column 2)
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+    at invokeCallback (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:508:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1701:12) 
+2025-12-21 17:26:01 [error]: Error 
+AggregateError: Error
+    at AxiosError.from (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\axios\lib\core\AxiosError.js:96:14)
+    at RedirectableRequest.handleRequestError (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\axios\lib\adapters\http.js:817:25)
+    at RedirectableRequest.emit (node:events:508:28)
+    at RedirectableRequest.emit (node:domain:489:12)
+    at ClientRequest.eventHandlers.<computed> (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\follow-redirects\index.js:49:24)
+    at ClientRequest.emit (node:events:508:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:107:11)
+    at Socket.socketErrorListener (node:_http_client:574:5)
+    at Socket.emit (node:events:508:28)
+    at Axios.request (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\axios\lib\core\Axios.js:45:41)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getFaceEmbedding (C:\Users\HomePC\Desktop\Class Attendance\backend\src\services\faceDetection.service.ts:100:26)
+    at async Object.registerFaceData (C:\Users\HomePC\Desktop\Class Attendance\backend\src\services\faceDetection.service.ts:127:23)
+    at async registerFaceData (C:\Users\HomePC\Desktop\Class Attendance\backend\src\controllers\user.controller.ts:190:20)
+2025-12-21 17:26:01 [error]: Error 
+AggregateError: Error
+    at AxiosError.from (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\axios\lib\core\AxiosError.js:96:14)
+    at RedirectableRequest.handleRequestError (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\axios\lib\adapters\http.js:817:25)
+    at RedirectableRequest.emit (node:events:508:28)
+    at RedirectableRequest.emit (node:domain:489:12)
+    at ClientRequest.eventHandlers.<computed> (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\follow-redirects\index.js:49:24)
+    at ClientRequest.emit (node:events:508:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:107:11)
+    at Socket.socketErrorListener (node:_http_client:574:5)
+    at Socket.emit (node:events:508:28)
+    at Axios.request (C:\Users\HomePC\Desktop\Class Attendance\backend\node_modules\axios\lib\core\Axios.js:45:41)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getFaceEmbedding (C:\Users\HomePC\Desktop\Class Attendance\backend\src\services\faceDetection.service.ts:100:26)
+    at async Object.registerFaceData (C:\Users\HomePC\Desktop\Class Attendance\backend\src\services\faceDetection.service.ts:127:23)
+    at async registerFaceData (C:\Users\HomePC\Desktop\Class Attendance\backend\src\controllers\user.controller.ts:190:20)

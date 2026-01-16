@@ -1,0 +1,46 @@
+{
+  "configurations": [
+    {
+      "type": "command",
+      "name": "Development Server",
+      "program": "npm",
+      "args": ["run", "dev"],
+      "working_dir": "$PROJECT_DIR$"
+    },
+    {
+      "type": "command",
+      "name": "Build Production",
+      "program": "npm",
+      "args": ["run", "build"],
+      "working_dir": "$PROJECT_DIR$"
+    },
+    {
+      "type": "command",
+      "name": "Run Tests",
+      "program": "npm",
+      "args": ["run", "test"],
+      "working_dir": "$PROJECT_DIR$"
+    },
+    {
+      "type": "command",
+      "name": "Preview Build",
+      "program": "npm",
+      "args": ["run", "preview"],
+      "working_dir": "$PROJECT_DIR$"
+    },
+    {
+      "type": "command",
+      "name": "Lint Project",
+      "program": "npm",
+      "args": ["run", "lint"],
+      "working_dir": "$PROJECT_DIR$"
+    },
+    {
+      "type": "command",
+      "name": "Install Dependencies",
+      "program": "npm",
+      "args": ["install"],
+      "working_dir": "$PROJECT_DIR$"
+    }
+  ]
+}

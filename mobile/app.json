@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "Class Attendance Mobile",
+    "slug": "class-attendance-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "classattendance",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "ke.school.classattendance"
+    }
+  }
+}
